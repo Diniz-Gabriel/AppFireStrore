@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "762665450944",
+    "project_id": "appfirestrore-e61fa",
+    "storage_bucket": "appfirestrore-e61fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762665450944:android:684a1176e6751969cf1c25",
+        "android_client_info": {
+          "package_name": "com.example.appfirestrore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762665450944-mpbsje8nf0g32hog97d5cv52pppbtbg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA35qlGwrr0_UUInsJjMSy-4PjZzVK4v1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762665450944-mpbsje8nf0g32hog97d5cv52pppbtbg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
