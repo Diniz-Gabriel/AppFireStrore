@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 
@@ -34,10 +35,15 @@ class MainActivity : AppCompatActivity() {
             )
 
             // Add a new document with a generated ID
-            db.collection("users")
+            db.collection("cadastro")
                 .add(pessoaFisica)
                 .addOnSuccessListener { documentReference ->
                     Log.d(TAG, "DocumentSnapshot added with ID: ${documentReference.id}")
+                    Toast.makeText(this, "Registro realizado com sucesso ${documentReference.id}-", Toast.LENGTH_LONG).show()
+                    edtNome.setText(null)
+                    edtEndereco.setText(null)
+                    edtBairro.setText(null)
+                    edtCep.setText(null)
                 }
                 .addOnFailureListener { e ->
                     Log.w(TAG, "Error adding document", e)
